@@ -1,0 +1,120 @@
+/* Style Mobile */
+@media(min-width: 320px){
+/* Style Universal / Css reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+   body {
+    background-color: #fafafa;
+    margin-top: 92px;
+    margin-bottom: 78px;
+}
+
+/* Style Article Header */
+header {
+  margin: 0px 32px 52px 32px;
+   text-align: center;
+}
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #828189;
+}
+header h1:nth-child(2) {
+    margin-top: 14px;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #535463;
+}
+header p {
+    color: #b7b8bc;
+    font-size: 18px;
+    margin: 0 auto;
+}
+/* Batas Style  Article header */
+
+/* Style Article */
+/* Style Flex box */
+.flex-hor {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    flex-grow: 1;
+    margin: 25px 32px 0px 32px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    line-height: 25px;
+    box-shadow: 0px 8px 10px #f0f2f7;
+    font-size: 15px;
+}
+
+/* Style Content Font & Image */
+section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #535463;
+    margin-bottom: 15px;
+}
+section p {
+    color: #b7b8bc;
+}
+section img {
+    margin-top: 37px;
+    float: right;
+    width: 60px;
+}
+
+/* Style Garis warna Atas Article */
+#supervisor   { border-top: 3px solid hsl(180, 62%, 55%);}
+#team-builder { border-top: 3px solid hsl(0, 78%, 62%);}
+#karma        { border-top: 3px solid hsl(34, 97%, 64%);}
+#calculator   { border-top: 3px solid hsl(212, 86%, 64%);}
+
+/* Batas Style Article */
+}
+
+/* Style Dekstop/Laptop */
+@media(min-width: 1280px){
+body {margin-bottom: 83px;}
+
+/* Style Article Header */
+header {margin: 0px 32px 65px 32px;}
+header h1 {font-size: 40px;}
+header h1:nth-child(2) {font-size: 40px;}
+header p {width: 500px;}
+/* Style Batas Article Header */
+
+/* Style Article */
+/* Style Flex box */
+.flex-hor{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    top: 5px;
+}
+section {width: 268px;}
+/* Style Supervisor ke Kanan */
+section#supervisor{
+    position: relative;
+    top: 400px;
+    right: 350px;
+}
+/* Style Calculator ke Kanan */
+section#calculator {
+    position: relative;
+    top: -450px;
+    left: 350px;
+}
+
+/* Style Image */
+section img {
+    margin-top: 42px;
+    width: 65px;
+}
+/* Batas Style Article */
+}
