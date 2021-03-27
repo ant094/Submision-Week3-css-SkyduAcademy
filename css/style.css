@@ -1,5 +1,4 @@
 /* Style Mobile */
-@media(min-width: 320px){
 /* Style Universal / Css reset */
 * {
     margin: 0px;
@@ -73,9 +72,8 @@ section img {
 #team-builder { border-top: 3px solid hsl(0, 78%, 62%);}
 #karma        { border-top: 3px solid hsl(34, 97%, 64%);}
 #calculator   { border-top: 3px solid hsl(212, 86%, 64%);}
-
 /* Batas Style Article */
-}
+
 
 /* Style Dekstop/Laptop */
 @media(min-width: 1280px){
